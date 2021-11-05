@@ -86,7 +86,7 @@ last_name           home_address                          billing_address
 
 ------------------  ------------------------------------  --------------------------------------- 
 
-Smith               89 Lyon Circle, Clifton, VA 12345     89 Lyon Circle, Clifton, VA 12345 
+Smith               89 Main St, Clifton, VA 12345         89 Main St, Clifton, VA 12345 
 
 Jones               212 Maple Ave, Manassas, VA 22033     212 Maple Ave, Manassas, VA 22033 
 
@@ -105,7 +105,7 @@ JOIN
 WHERE 
     p1.address_type = 'home' AND p2.address_type = 'bill';
     
-/* 9. Write a query to update the person.occupation column to ‘X’ for all rows that have a ‘BILL’ address in the address table.*/
+/* 9. Write a query to update the person.occupation column to â€˜Xâ€™ for all rows that have a â€˜BILLâ€™ address in the address table.*/
 
 UPDATE
     person
